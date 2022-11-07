@@ -1,0 +1,35 @@
+//arrow function sem parâmetros 1
+let saudacao = () => {
+    return `Seja bem vindo!`;
+};
+console.log(saudacao("João"));
+
+//arrow function sem parâmetros 2
+let saudacao = _ => {
+    return `Seja bem vindo!`;
+};
+console.log(saudacao("João"));
+
+
+
+//função tradicional com parâmetros e um retorno de valor;
+let saudacao = nome => {
+  return `Olá ${nome}, seja bem vindo!`;
+};
+console.log(saudacao("João"))
+
+
+//arrow function
+let soma = (a, b) => {
+  return a + b;
+};
+console.log(soma(3, 3)); //6
+
+
+
+
+
+ 
+
+
+
